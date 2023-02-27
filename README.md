@@ -83,7 +83,7 @@ Questo si fa coi comandi
 >
 >nell'esempio ho selezionato per l'upload solo file1 e file2
 
-`git -m commit "commento che descrive cosa ho fatto"`
+`git commit -m "commento che descrive cosa ho fatto"`
 
 associa un commento alle modifiche, lo vedremo poi a fianco dei files caricati sulla pagina di github (è obbligatorio)
 
@@ -105,3 +105,4 @@ Questo meccanismo avviene con una *pull request* e se le modifiche vengono appro
 
 ## Funzioni predefinite di python
 
+[QUI](./src/files_py/funzioni_pitone.py) trovi qualcosa sulla funzione print con uno spunto su come fare alcune prove.
