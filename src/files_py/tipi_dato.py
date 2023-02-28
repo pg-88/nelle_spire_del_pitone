@@ -2,3 +2,5 @@
 
 numero: int = 42
 x: float = 3.14
+
+print (x+numero)
