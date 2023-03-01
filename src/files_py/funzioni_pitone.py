@@ -31,7 +31,7 @@ print("v è una variabile il cui valore è: ", v, '\n', "mentre la variabile quo
 #             ^stringa costante                   ^singolo carattere(carattere speciale)
 
 ##### Per sperimentare si potrebbe creare una lista di nomi e una lista di età e provare a selezionarli e comporli per fare una stringa
-names = ["Pluto","Balto","Lessy","Pongo"]
+names = ["Pluto","Balto","Lassie","Pongo"]
 age =  [121,15,34,12]
 print ("Il cane", names[0], "ha",str(age[0]), "anni",'\n' "Il cane", names[1], "ha",str(age[1]), "anni,""\n"
        "Il cane", names[2], "ha",str(age[2]), "anni, Il cane", names[3], "ha",str(age[3]),"anni.")
