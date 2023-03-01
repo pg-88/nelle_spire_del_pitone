@@ -10,6 +10,8 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Pull Request](#pull-request)
   - [Python](#python)
     - [Python e tipi dato](#python-e-tipi-dato)
+  - [Sequenza di istruzioni](#sequenza-di-istruzioni)
+    - [Selezione](#selezione)
     - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
     - [Definire funzioni in python](#definire-funzioni-in-python)
     - [Cicli For](#cicli-for)
@@ -117,6 +119,27 @@ Questo meccanismo avviene con una *pull request* e se le modifiche vengono appro
 ### Python e tipi dato
 [vedi il notebook](./src/files_notebook/tipi_dato.ipynb)
 
+## Sequenza di istruzioni
+Proviamo a ricreare con python alcuni diagrammi di flusso visti a lezione
+
+![pagina 74](utils/pagina74.png)
+
+per questo abbiamo bisogno di avere un input per il comando Leggi(x). Con python possiamo usare la funzione predefinita `input("Stringa che descrive cosa andrebbe inserito")`.
+
+Con questa sintassi avremo la stringa stampata sul terminale e il programma sospenderà l'esecuzione per aspettare l'input. Una volta ricevuto, lo registrerà in una variabile.
+
+[Esempio nel notebook sequenza](./src/files_notebook/sequenza.ipynb)
+
+[Stesso esempio con file py](src/files_py/sequenza.py)
+
+### Selezione
+![pagina 75](utils/pagina75.png)
+Qui si introduce la possibilità di biforcare l'esecuzione del codice in funzione del valore delle variabili passate (quindi in pratica di uno stato)
+
+Per fare questo è necessario usare il costrutto `if` e almeno un operatore logico visto che dobbiamo confrontare il valore di 2 variabili
+
+[Esempio sul notebook](src/files_notebook/selezione.ipynb)
+[Stessa cosa sul file py](src/files_py/selezione.py)
 
 ### Funzioni predefinite di python
 
