@@ -41,6 +41,12 @@ print ("Il cane", names[0], "ha",str(age[0]), "anni",'\n' "Il cane", names[1], "
 # gli elementi delle due liste con posizione della lista pari al numero del ciclo. Nota : cosa succede se le liste non hanno lo stesso numero di elementi?
 
 
-x = len(names)
-for n in names:
-       print('Il cane', names[0], 'ha', str(age[0]))
+for i in range(len(names)):
+   print(f'{names[i]} ha {age[i]}') 
+
+# posso usare anche la funzione zip (unisce due liste)
+
+for n, y in zip(names, age):
+	print(f'{n} ha {y}')
+        
+#cosa succede quando le due liste non sono lunghe uguali?
