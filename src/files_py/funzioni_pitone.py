@@ -39,3 +39,8 @@ print ("Il cane", names[0], "ha",str(age[0]), "anni",'\n' "Il cane", names[1], "
 #provo a stampare tutti i cani con relativi anni innescando un ciclo
 #devo prima contare il numero di elementi della lista, poi posso innescare un ciclo con numero di cicli pari al numero degli elementi e stampare 
 # gli elementi delle due liste con posizione della lista pari al numero del ciclo. Nota : cosa succede se le liste non hanno lo stesso numero di elementi?
+
+
+x = len(names)
+for n in names:
+       print('Il cane', names[0], 'ha', str(age[0]))
