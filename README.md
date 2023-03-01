@@ -4,11 +4,14 @@ repository di prova per usare github e condividere appunti ed esercizi su python
   - [Come usare questa Repository](#come-usare-questa-repository)
     - [Disclaimer:](#disclaimer)
     - [Fork in github](#fork-in-github)
+    - [Su visual studio code](#su-visual-studio-code)
     - [Clone](#clone)
     - [Branch](#branch)
     - [Pull Request](#pull-request)
-  - [Python e tipi dato](#python-e-tipi-dato)
-  - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
+  - [Python](#python)
+    - [Python e tipi dato](#python-e-tipi-dato)
+    - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
+    - [Definire funzioni in python](#definire-funzioni-in-python)
     
 ## Come usare questa Repository
 
@@ -48,6 +51,13 @@ Dallo screenshot si vede in alto a destra la foto del mio profilo perchè ho fat
 Dopo il fork avremo la stessa identica repository sul nostro account.
 *Attenzione: il fork non si aggiorna da solo con la repository originale ma nel caso volessimo tenerla aggiornata è necessario sincronizzare le repository*
 
+### Su visual studio code 
+
+Prima di poter accedere ai repository remoti è necessario collegare git in locale con l'account github, ovvero attivare il sync con l'account github.
+
+link alla guida VS code:
+[set up git in vs code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_set-up-git-in-vs-code)
+[setting sync](https://code.visualstudio.com/docs/editor/settings-sync)
 
 ### Clone
 
@@ -99,10 +109,25 @@ Se io sto collaborando a un progetto e finisco uno dei compiti che mi è stato a
 Questo meccanismo avviene con una *pull request* e se le modifiche vengono approvate da chi controlla il repository originale, viene fatto un *merge* ovvero le mie modifiche saranno assorbite nel progetto principale.
 
 
-## Python e tipi dato
+## Python
+
+
+### Python e tipi dato
 [vedi il notebook](./src/files_notebook/tipi_dato.ipynb)
 
 
-## Funzioni predefinite di python
+### Funzioni predefinite di python
 
 [QUI](./src/files_py/funzioni_pitone.py) trovi qualcosa sulla funzione print con uno spunto su come fare alcune prove.
+
+### Definire funzioni in python
+
+La parola chiava per definire le funzioni in python è def.
+
+I nomi delle funzioni seguono le regole dei nomi variabilli (no numeri come primo carattere, caratteri alfanumerici non riservati a operatori).
+
+Esistono delle convenzioni e di solito i nomi funzione vengono scritti in minuscolo con eventuale separazione delle parole con '_'. Questo non costituisce una regola ma è seguito più o meno da tutti in modo da rendere leggibile il codice degli altri.
+
+Google ha raccolto queste best practice [qui](https://google.github.io/styleguide/pyguide.html).
+
+Alcuni esempi sul notebook [def_pitone](./src/files_notebook/def_pitone.ipynb)
