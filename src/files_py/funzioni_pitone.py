@@ -50,3 +50,17 @@ for n, y in zip(names, age):
 	print(f'{n} ha {y}')
         
 #cosa succede quando le due liste non sono lunghe uguali?
+
+nome = input ('inserisci il tuo nome : ')
+nome
+print(f'il nome inserito è : {nome}, è correttò?')
+
+checknome = input('s/n ? : ')
+checknome
+
+if checknome == "s":
+   print ('ottimo! ora inserisci la tua età')
+
+età =input(' ')
+età
+print (f"l' età inserita è è {età}")
