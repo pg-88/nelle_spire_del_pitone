@@ -12,6 +12,9 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Python e tipi dato](#python-e-tipi-dato)
     - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
     - [Definire funzioni in python](#definire-funzioni-in-python)
+  - [Folder src](#folder-src)
+    - [files\_notebook](#files_notebook)
+    - [files\_py](#files_py)
     
 ## Come usare questa Repository
 
@@ -131,3 +134,12 @@ Esistono delle convenzioni e di solito i nomi funzione vengono scritti in minusc
 Google ha raccolto queste best practice [qui](https://google.github.io/styleguide/pyguide.html).
 
 Alcuni esempi sul notebook [def_pitone](./src/files_notebook/def_pitone.ipynb)
+
+## Folder src
+Nella cartella src sono inseriti i file sorgente, divisi per estensione (ipynb / py ). 
+A loro volta i file sono tematici (funzioni/tipi dato/ etc).
+I file playground racchiudono pezzi di codice/esercizi non tematici.
+
+### files_notebook
+
+### files_py
