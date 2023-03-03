@@ -50,3 +50,4 @@ for n, y in zip(names, age):
 	print(f"{n} ha {y}")
         
 #cosa succede quando le due liste non sono lunghe uguali?
+

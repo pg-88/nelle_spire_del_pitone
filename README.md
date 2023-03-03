@@ -16,6 +16,7 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Definire funzioni in python](#definire-funzioni-in-python)
     - [Cicli For](#cicli-for)
     - [Liste e Dictionary](#liste-e-dictionary)
+
     
 ## Come usare questa Repository
 
@@ -160,3 +161,4 @@ Alcuni esempi sul notebook [def_pitone](./src/files_notebook/def_pitone.ipynb)
 ### Cicli For
 
 ### Liste e Dictionary 
+
