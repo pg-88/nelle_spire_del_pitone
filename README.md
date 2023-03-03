@@ -10,7 +10,7 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Pull Request](#pull-request)
   - [Python](#python)
     - [Python e tipi dato](#python-e-tipi-dato)
-  - [Sequenza di istruzioni](#sequenza-di-istruzioni)
+    - [Sequenza di istruzioni](#sequenza-di-istruzioni)
     - [Selezione](#selezione)
     - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
     - [Definire funzioni in python](#definire-funzioni-in-python)
@@ -119,7 +119,7 @@ Questo meccanismo avviene con una *pull request* e se le modifiche vengono appro
 ### Python e tipi dato
 [vedi il notebook](./src/files_notebook/tipi_dato.ipynb)
 
-## Sequenza di istruzioni
+##à Sequenza di istruzioni
 Proviamo a ricreare con python alcuni diagrammi di flusso visti a lezione
 
 ![pagina 74](utils/pagina74.png)
