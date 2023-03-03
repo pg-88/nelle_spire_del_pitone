@@ -8,16 +8,18 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Clone](#clone)
     - [Branch](#branch)
     - [Pull Request](#pull-request)
+    - [Come contribuire a questa repository](#come-contribuire-a-questa-repository)
   - [Python](#python)
     - [Python e tipi dato](#python-e-tipi-dato)
-    - [Sequenza di istruzioni](#sequenza-di-istruzioni)
     - [Selezione](#selezione)
+    - [Cicli](#cicli)
     - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
     - [Definire funzioni in python](#definire-funzioni-in-python)
-    - [Cicli For](#cicli-for)
     - [Liste e Dictionary](#liste-e-dictionary)
+  - [Esercizi esempi](#esercizi-esempi)
+    - [Playground](#playground)
+    - [Esercizio Cani](#esercizio-cani)
 
-    
 ## Come usare questa Repository
 
 Ho pensato di ricreare un caso d'uso di github il più simile possibile per poter fare delle prove e settare git in modo da poter condividere gli stessi files sorgente e poterci lavorare, ognuno sul suo pc, condividendo le modifiche sulla repository originale una volta che sono state controllate e accettate.
@@ -113,6 +115,22 @@ Se io sto collaborando a un progetto e finisco uno dei compiti che mi è stato a
 
 Questo meccanismo avviene con una *pull request* e se le modifiche vengono approvate da chi controlla il repository originale, viene fatto un *merge* ovvero le mie modifiche saranno assorbite nel progetto principale.
 
+### Come contribuire a questa repository
+
+Per contribuire con modifiche e aggiunte, una volta fatto il fork e modificato sul vostro account di github, potete mandare una pull request. Per cercare di mantenere un po di ordine cerchiamo di tenere tutti i files di python nella cartella `/src/files_py` e tutti i files di notebook quindi con codice e appunti insieme nella cartelle `src/files_notebook`.
+Se lo ritenete necessario si possono aggiungere sottocartelle per argomenti.
+
+Tendenzialmente per come ho pensato di strutturare questa cosa, il readme è il punto di partenza e il posto dove trovare le modifiche, tendenzialmente chi aggiunge files dovrebbe creare un sotto argomento qui, per scrivere cosa è stato aggiunto per sommi capi e il link al file. Se non sapete come lo posso fare io comunque la sintassi di markdown è abbastanza semplice e l'unica cosa importante è rispettare i titoli in modo che l'indice rimanga ordinato.
+
+Questo readme è strutturato (per ora) in 3 parti principali:
+- la prima (questa) in cui si spiega come usare e come contribuire
+- la seconda in cui sto cercando di aggiungere un po di cose teoriche con link ai files in cui fare prove
+- la terza in cui ~~stiamo~~ stanno (Davide e Giovanni al momento) iniziando a caricare esercizi ed esempi.
+
+Chi volesse provare a contribuire ovviamente può farlo su qualsiasi file, l'unica cosa che sarebbe carino fare è rinominare il file al momento del push con il nome (o nome utente) in modo da non "sovrascrivere" i files degli altri e poter confrontare i vari approcci.
+Se invece volete creare un file nuovo per proporre un nuovo esempio/esercizio potete omettere il nome o magari metterlo nella prima riga del file in un commento.
+
+**Grazie a tutti quelli che clonano, forkano, pullano e pushano!!!**
 
 ## Python
 
@@ -142,6 +160,8 @@ Per fare questo è necessario usare il costrutto `if` e almeno un operatore logi
 [Esempio sul notebook](src/files_notebook/selezione.ipynb)
 [Stessa cosa sul file py](src/files_py/selezione.py)
 
+### Cicli
+
 ### Funzioni predefinite di python
 
 [QUI](./src/files_py/funzioni_pitone.py) trovi qualcosa sulla funzione print con uno spunto su come fare alcune prove.
@@ -158,7 +178,26 @@ Google ha raccolto queste best practice [qui](https://google.github.io/styleguid
 
 Alcuni esempi sul notebook [def_pitone](./src/files_notebook/def_pitone.ipynb)
 
-### Cicli For
 
 ### Liste e Dictionary 
 
+## Esercizi esempi
+
+### Playground
+[playground](/src/files_py/playground.py)
+Ideato da Davide, esempio di paradigma procedurale o imperativo (vedi slide Nannino IntroduzioneProgrammazione pag 110), in cui fa ampio uso di cicli WHILE e funzione di input per far popolare le variabili all'utente.
+
+>un aspetto su cui si potrebbe lavorare è trasformare questo codice per farlo diventare funzionale. Ovvero definire funzioni [v. sopra](#definire-funzioni-in-python) e chiamarle al momento debito per ottenere lo stesso risultato. 
+>
+>*Suggerimento*: pensare le funioni il più piccole possibili (ogni funzione fa solo **una** cosa), e che possano essere riutilizzabili in diversi casi.
+
+### Esercizio Cani
+
+[Liste Cani](src/files_py/esercizio_cani_BigBeefs.py) Questo è stato svilupato da Giovanni partendo da un idea che era in un esempio (sul file funzioni pitone esempio di Davide con le liste). Questo **è** un esempio di paradigma funzionale. Il codice, usando diversi cicli e qualche metodo delle liste, confronta due liste particolari. Una contene alcuni nomi di cani e una età degli stessi cani. Viene preso per buono che gli indici delle liste combacino quindi il primo cane avrà il nome nel primo elemento della lista nomi cani e la sua età nel primo elemento della lista età cani e così in ordine tutti gli altri. Il problema che si è posto è: cosa succede se mancano dati?
+
+Ci sarà una lista più lunga e una più corta. Quindi il codice che è stato scritto va a controllare qual'è la lista "incompleta" e a seconda che si tratti della lista dei nomi o delle età chiede un input appropriato all'utente.
+
+>possibilità per espandere l'esempio:
+> - la parte finale stampa a schermo delle stringhe che fondamentalmente sono praticamente uguali, potremmo creare una funzione "stampa_dati" che ritorna le stringhe che descrivono le liste
+> - se l'utente ha altri cani? Si può creare una funzione che chiede nome ed età di un nuovo cane e li inserisce nelle liste.
+>> *Più avanzato*: visto che a ogni cane vengono associati dei dati si può usare una struttura dati diversa che preveda una chiave (nome cane) e un valore (età o anche sesso, razza, padrone...) in python ci sono in [dictionary](https://www.w3schools.com/python/python_dictionaries.asp), ma in JS e ormai ovunque ci sono i [JSON](https://www.w3schools.com/js/js_json_intro.asp)
