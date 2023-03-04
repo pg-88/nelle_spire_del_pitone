@@ -19,6 +19,7 @@ repository di prova per usare github e condividere appunti ed esercizi su python
   - [Esercizi esempi](#esercizi-esempi)
     - [Playground](#playground)
     - [Esercizio Cani](#esercizio-cani)
+    - [Contanti](#contanti)
 
 ## Come usare questa Repository
 
@@ -201,3 +202,9 @@ Ci sarà una lista più lunga e una più corta. Quindi il codice che è stato sc
 > - la parte finale stampa a schermo delle stringhe che fondamentalmente sono praticamente uguali, potremmo creare una funzione "stampa_dati" che ritorna le stringhe che descrivono le liste
 > - se l'utente ha altri cani? Si può creare una funzione che chiede nome ed età di un nuovo cane e li inserisce nelle liste.
 >> *Più avanzato*: visto che a ogni cane vengono associati dei dati si può usare una struttura dati diversa che preveda una chiave (nome cane) e un valore (età o anche sesso, razza, padrone...) in python ci sono in [dictionary](https://www.w3schools.com/python/python_dictionaries.asp), ma in JS e ormai ovunque ci sono i [JSON](https://www.w3schools.com/js/js_json_intro.asp)
+
+### Contanti
+[contanti ](src/files_py/contanti.py)
+Ho proposto un idea da sviluppare, dato un 'conto' quindi un numero con la virgola e 2 decimali, fare un piccolo programma che ci dice quante e quali banconote e monete usare.
+Per farlo è necessario usare il concetto di divisione intera e resto della divisione intera (chiamato modulo e indicato con il simbolo %).
+Si può fare sia proceduralmente, che in modo funzionale.
