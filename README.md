@@ -162,6 +162,16 @@ Per fare questo è necessario usare il costrutto `if` e almeno un operatore logi
 [Stessa cosa sul file py](src/files_py/selezione.py)
 
 ### Cicli
+![iterazione](utils/iterazione.png)
+
+Molto spesso nell'esecuzione di programmi abbiamo bisogno di ripetere le stesse istruzioni su dati diversi, magari quando abbiamo una lista (o un array) e dobbiamo fare la stessa operazione per ogni elemento.
+Questo porta a ripetere le stesse istruzioni molte volte non è conveniente scriverle a mano nel codice sorgente.
+Inoltre a volte non sappiamo nemmeno *quante* volte si devono ripetere ad esempio utente che deve inserire dei numeri, a priori potremo non sapere quanti ne vuole inserire, oppure scorrere una lista molto lunga per trovare un valore, potrei doverla scorrere tutta come trovare il valore al secondo indice e fermarmi.
+
+Per questi casi possiamo usare le iterazioni o cicli.
+Il ciclo è un blocco di codice che viene eseguito al verificarsi di una condizione, e ripetuto finchè quella condizione permane.
+Esempi e ulteriori aspetti nel file [cicli](src/files_notebook/cicli.ipynb)
+
 
 ### Funzioni predefinite di python
 
