@@ -44,7 +44,7 @@ def completa_dati(nomi: list, eta: list) -> None:
     d = dif_list(nomi, eta)
     if d == 0:
         print("Le liste sono complete")
-    if d > 0:
+    elif d > 0:
         ask_eta(d)
     else:
        ask_name(d)
