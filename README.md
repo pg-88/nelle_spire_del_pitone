@@ -21,6 +21,7 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Esercizio Cani](#esercizio-cani)
     - [Contanti](#contanti)
 
+
 ## Come usare questa Repository
 
 Ho pensato di ricreare un caso d'uso di github il più simile possibile per poter fare delle prove e settare git in modo da poter condividere gli stessi files sorgente e poterci lavorare, ognuno sul suo pc, condividendo le modifiche sulla repository originale una volta che sono state controllate e accettate.
@@ -192,6 +193,7 @@ Alcuni esempi sul notebook [def_pitone](./src/files_notebook/def_pitone.ipynb)
 
 ### Liste e Dictionary 
 
+
 ## Esercizi esempi
 
 ### Playground
@@ -218,3 +220,4 @@ Ci sarà una lista più lunga e una più corta. Quindi il codice che è stato sc
 Ho proposto un idea da sviluppare, dato un 'conto' quindi un numero con la virgola e 2 decimali, fare un piccolo programma che ci dice quante e quali banconote e monete usare.
 Per farlo è necessario usare il concetto di divisione intera e resto della divisione intera (chiamato modulo e indicato con il simbolo %).
 Si può fare sia proceduralmente, che in modo funzionale.
+
