@@ -36,25 +36,25 @@ check_play= input(" ")
 
 while check_play == "s":
 
-   livello = input ('Scegli il livello di difficoltà da 1 a 10, 1=facile, 10=difficile: ')
+   level = input ("Scegli il livello di difficoltà da 1 a 10, 1=facile, 10=difficile: ")
 
    assegnazione_livello = {
    "1": "super facilissimo",
    "2": "facilissimo",
    "3": "Balotta",
-   "4": "facilone",
+   "4": "Facilone",
    "5": "Polleg",
    "6": "Umarell",
-   "7": "vèz",
-   "8": "boia de",
-   "9" : "Bazza",
+   "7": "Vèz",
+   "8": "Boia de",
+   "9" : "Rusco",
    "10": "Soccia"}
 
-   x= (assegnazione_livello.get(livello))
+   x= (assegnazione_livello.get(level))
    print(f"hai scelto il livello : {x}")
-   numero_utente = input (f"Benissimo! Prova a indovinare a cosa sto pensando, inserisci un numero da 1 a {livello} : ")
+   numero_utente = input (f"Benissimo! Prova a indovinare a cosa sto pensando, inserisci un numero da 1 a {level} : ")
       
-   numero_intero_casuale = random.randint(1,5)
+   numero_intero_casuale = random.randint(1,int(level))
 
    tentativo = 0
 
@@ -72,6 +72,9 @@ while check_play == "s":
    tentativo = tentativo+1
 
    print (f"Complimenti! Hai indovinato il numero dopo {tentativo} tentativi! Vuoi giocare ancora? \n s/n ?")
+   
    check_play= input(" ")
+
+   
 
 print('Va bene, alla prossima!')
