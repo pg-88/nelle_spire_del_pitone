@@ -1,4 +1,6 @@
 #Indovina numero
+#IMPORT
+import random
 
 #INPUT NOME
 nome = input ('inserisci il tuo nome : ')
@@ -34,10 +36,24 @@ check_play= input(" ")
 
 while check_play == "s":
 
-   numero_utente = input ('Benissimo! Prova a indovinare a cosa sto pensando, inserisci un numero da 1 a 5 : ')
-   
+   livello = input ('Scegli il livello di difficoltà da 1 a 10, 1=facile, 10=difficile: ')
 
-   import random
+   assegnazione_livello = {
+   "1": "super facilissimo",
+   "2": "facilissimo",
+   "3": "Balotta",
+   "4": "facilone",
+   "5": "Polleg",
+   "6": "Umarell",
+   "7": "vèz",
+   "8": "boia de",
+   "9" : "Bazza",
+   "10": "Soccia"}
+
+   x= (assegnazione_livello.get(livello))
+   print(f"hai scelto il livello : {x}")
+   numero_utente = input (f"Benissimo! Prova a indovinare a cosa sto pensando, inserisci un numero da 1 a {livello} : ")
+      
    numero_intero_casuale = random.randint(1,5)
 
    tentativo = 0
