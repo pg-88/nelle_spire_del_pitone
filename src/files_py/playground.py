@@ -56,16 +56,11 @@ while check_play == "s":
       "8": "Boia de",
       "9" : "Rusco",
       "10": "Soccia"}
-   
-   z=int(level)
-   z=str(z)
-   x= (assegnazione_livello.get(z))
 
-   print(f"hai scelto il livello : {x}")
+   print(f"hai scelto il livello : {assegnazione_livello.get(level)}")
    numero_utente = input (f"Benissimo! Prova a indovinare a cosa sto pensando, inserisci un numero da 1 a {level} : ")
                
    numero_intero_casuale = random.randint(1,int(level))
-   print (numero_intero_casuale)
 
    tentativo = 0
 
