@@ -1,28 +1,32 @@
 #Indovina numero
 
+#INPUT NOME
 nome = input ('inserisci il tuo nome : ')
 nome
 print(f'il nome inserito è : {nome}, è correttò?')
 
+#CHECK NAME INPUT
 checknome = input('s/n ? : ')
 
-
-while (checknome !="n" and checknome != "s"):
-   print ("ops! Non ho capito, insierisci la lettera s se il nome è giusto o n se vuoi cambiare nome ")
+while (checknome !="n"):
+   if (checknome == "s"):
+      break
+   print ("ops! Non ho capito, insierisci la lettera \"s\" se il nome è giusto o \"n\" se vuoi cambiare nome ")
    
    print(f'il nome inserito è : {nome}, è correttò?')
 
    checknome = input('s/n ? : ')
 
-while checknome == "n":
-   print ("ops! Riproviamo... inserisci il tuo nome ")
-   nome = input ('inserisci il tuo nome : ')
+   while checknome == "n":
+      print ("ops! Riproviamo... inserisci il tuo nome ")
+      nome = input ('inserisci il tuo nome : ')
    
-   print(f'il nome inserito è : {nome}, è correttò?')
+      print(f'il nome inserito è : {nome}, è correttò?')
 
-   checknome = input('s/n ? : ')
-   
+      echecknome = input('s/n ? : ')
 
+
+#GAME START
 
 print(f"ok {nome}, ti va di fare un gioco, si chiama indovina numero \ns/n?")
 
