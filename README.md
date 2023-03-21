@@ -1,6 +1,9 @@
 # Nelle Spire del Pitone
 repository di prova per usare github e condividere appunti ed esercizi su python## Indice
 - [Nelle Spire del Pitone](#nelle-spire-del-pitone)
+  - [Appunti presi a lezione](#appunti-presi-a-lezione)
+    - [Lunedì 20](#lunedì-20)
+    - [Martedì 21](#martedì-21)
   - [Come usare questa Repository](#come-usare-questa-repository)
     - [Disclaimer:](#disclaimer)
     - [Fork in github](#fork-in-github)
@@ -21,6 +24,17 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Esercizio Cani](#esercizio-cani)
     - [Contanti](#contanti)
 
+## Appunti presi a lezione
+
+### Lunedì 20
+[lunedì 20 marzo notebook](appunti_lezione/lun20marzo.ipynb) Liste, tuple dictionary, cicli for e while (while li ha fatti il 21 ma sono nello stesso file).
+
+### Martedì 21
+[martedì 21 marzo notebook](appunti_lezione/mar21marzo.ipynb)
+
+[martedì 21 marzo classe cubo](appunti_lezione/modulo/mieclassi.py)
+
+[martedì 21 marzo formule](appunti_lezione/modulo/formule.py)
 
 ## Come usare questa Repository
 
