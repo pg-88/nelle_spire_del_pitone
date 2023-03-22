@@ -4,6 +4,7 @@ repository di prova per usare github e condividere appunti ed esercizi su python
   - [Appunti presi a lezione](#appunti-presi-a-lezione)
     - [Lunedì 20](#lunedì-20)
     - [Martedì 21](#martedì-21)
+    - [Mercoleì 22](#mercoleì-22)
   - [Come usare questa Repository](#come-usare-questa-repository)
     - [Disclaimer:](#disclaimer)
     - [Fork in github](#fork-in-github)
@@ -35,6 +36,11 @@ repository di prova per usare github e condividere appunti ed esercizi su python
 [martedì 21 marzo classe cubo](appunti_lezione/modulo/mieclassi.py)
 
 [martedì 21 marzo formule](appunti_lezione/modulo/formule.py)
+
+### Mercoleì 22
+[mercoledì 22 marzo notebook](appunti_lezione/mer22marzo.ipynb)
+
+
 
 ## Come usare questa Repository
 
