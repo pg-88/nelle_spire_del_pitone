@@ -11,9 +11,12 @@ class Cubo:
         #return self.l**3
     
     def sup_esterna(self):
-        return 
-    
-if __name__ == '__main__':
+        pass
+
+def main():
     p = Cubo(3.7) #p è un cubo di lato 3.7
     vol = p.volume() 
     print(p.volume())
+
+if __name__ == '__main__':
+    main()
