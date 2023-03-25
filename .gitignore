@@ -176,3 +176,9 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 appunti_lezione/tips_complete.csv
 appunti_lezione/data/tips_complete.csv
+appunti_lezione/test.png
+appunti_lezione/modulo/__pycache__/mieclassi.cpython-310.pyc
+.gitignore
+utils/esercizi_matplot.pdf
+appunti_lezione/modulo/__pycache__/mieclassi.cpython-310.pyc
+appunti_lezione/modulo/__pycache__/mieclassi.cpython-310.pyc

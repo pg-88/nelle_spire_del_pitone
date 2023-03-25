@@ -6,6 +6,7 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Martedì 21](#martedì-21)
     - [Mercoledì 22](#mercoledì-22)
     - [Giovedì 23](#giovedì-23)
+    - [Venerdì 24](#venerdì-24)
   - [Come usare questa Repository](#come-usare-questa-repository)
     - [Disclaimer:](#disclaimer)
     - [Fork in github](#fork-in-github)
@@ -43,6 +44,10 @@ repository di prova per usare github e condividere appunti ed esercizi su python
 
 ### Giovedì 23 
 [giovedì 23 marzo notebook](appunti_lezione/gio23marzo.ipynb)
+
+### Venerdì 24
+[venerdì 24 marzo notebook](appunti_lezione/ven24marzo.ipynb)
+
 
 ## Come usare questa Repository
 
