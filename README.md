@@ -17,6 +17,8 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Come contribuire a questa repository](#come-contribuire-a-questa-repository)
   - [Python](#python)
     - [Python e tipi dato](#python-e-tipi-dato)
+      - [Numeri](#numeri)
+  - [Sequenza di istruzioni](#sequenza-di-istruzioni)
     - [Selezione](#selezione)
     - [Cicli](#cicli)
     - [Funzioni predefinite di python](#funzioni-predefinite-di-python)
@@ -166,8 +168,19 @@ Se invece volete creare un file nuovo per proporre un nuovo esempio/esercizio po
 
 ### Python e tipi dato
 [vedi il notebook](./src/files_notebook/tipi_dato.ipynb)
+Python **non** è un linguaggio tipato!!!
 
-##à Sequenza di istruzioni
+#### Numeri
+
+in python i numeri possono avere la virgola (che in realtà è il punto) oppure sono interi.
+
+Esempi:
+- 42 è int
+- 3.14 è *float*
+
+
+
+## Sequenza di istruzioni
 Proviamo a ricreare con python alcuni diagrammi di flusso visti a lezione
 
 ![pagina 74](utils/pagina74.png)
