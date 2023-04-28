@@ -2,11 +2,13 @@
 repository di prova per usare github e condividere appunti ed esercizi su python## Indice
 - [Nelle Spire del Pitone](#nelle-spire-del-pitone)
   - [Appunti presi a lezione](#appunti-presi-a-lezione)
-    - [Lunedì 20](#lunedì-20)
-    - [Martedì 21](#martedì-21)
-    - [Mercoledì 22](#mercoledì-22)
-    - [Giovedì 23](#giovedì-23)
-    - [Venerdì 24](#venerdì-24)
+    - [Lunedì 20 marzo](#lunedì-20-marzo)
+    - [Martedì 21 marzo](#martedì-21-marzo)
+    - [Mercoledì 22 marzo](#mercoledì-22-marzo)
+    - [Giovedì 23 marzo](#giovedì-23-marzo)
+    - [Venerdì 24 marzo](#venerdì-24-marzo)
+    - [Mercoledì 26 aprile](#mercoledì-26-aprile)
+    - [Giovedì 27 aprile](#giovedì-27-aprile)
   - [Come usare questa Repository](#come-usare-questa-repository)
     - [Disclaimer:](#disclaimer)
     - [Fork in github](#fork-in-github)
@@ -31,25 +33,37 @@ repository di prova per usare github e condividere appunti ed esercizi su python
 
 ## Appunti presi a lezione
 
-### Lunedì 20
+### Lunedì 20 marzo
 [lunedì 20 marzo notebook](appunti_lezione/lun20marzo.ipynb) Liste, tuple dictionary, cicli for e while (while li ha fatti il 21 ma sono nello stesso file).
 
-### Martedì 21
+### Martedì 21 marzo
 [martedì 21 marzo notebook](appunti_lezione/mar21marzo.ipynb)
 
 [martedì 21 marzo classe cubo](appunti_lezione/modulo/mieclassi.py)
 
 [martedì 21 marzo formule](appunti_lezione/modulo/formule.py)
 
-### Mercoledì 22
+### Mercoledì 22 marzo
 [mercoledì 22 marzo notebook](appunti_lezione/mer22marzo.ipynb)
 
-### Giovedì 23 
+### Giovedì 23 marzo
 [giovedì 23 marzo notebook](appunti_lezione/gio23marzo.ipynb)
 
-### Venerdì 24
+### Venerdì 24 marzo
 [venerdì 24 marzo notebook](appunti_lezione/ven24marzo.ipynb)
 
+### Mercoledì 26 aprile
+[mercoledì 26 aprile notebook](appunti_lezione/merc26apr.ipynb) appunti machine learning sulla regressione lineare
+
+[streamlit](./streamlit/linear_regression/app_linear.py) esercizion fatto con streamlit
+
+### Giovedì 27 aprile 
+
+[giovedì 27 aprile](./appunti_lezione/gio27apr.ipynb) appunti machine learning su regressione multipla e classificazione
+
+[app multiple regression](./streamlit/multiple_regression/app_multiple.py) esempio *(non ancora completo)* di app per fare regressione multipla con streamlit. **!!!Usa le classi!!!**
+
+[classification](./streamlit/classification/app_classification.py) Esercizio in aula, app di streamlit che, avendo già creato il modello ML per la classificazione degli iris, prende un file .csv (feature) elabora i dati e restituiisce i dati classificati con la possibilità di scaricarli in formato excel.
 
 ## Come usare questa Repository
 

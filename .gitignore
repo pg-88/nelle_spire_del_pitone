@@ -182,3 +182,12 @@ appunti_lezione/modulo/__pycache__/mieclassi.cpython-310.pyc
 utils/esercizi_matplot.pdf
 appunti_lezione/modulo/__pycache__/mieclassi.cpython-310.pyc
 appunti_lezione/modulo/__pycache__/mieclassi.cpython-310.pyc
+*/bin
+*/lib*
+streamlit/pyvenv.cfg
+streamlit/etc/jupyter/nbconfig/notebook.d/pydeck.json
+streamlit/share/jupyter/kernels/python3/kernel.json
+.gitignore
+appunti_lezione/frenzy86.s3.eu-west-2.amazonaws.com/python/data/datalr.csv
+*/share
+*/etc
