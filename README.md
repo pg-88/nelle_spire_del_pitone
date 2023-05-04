@@ -9,6 +9,9 @@ repository di prova per usare github e condividere appunti ed esercizi su python
     - [Venerdì 24 marzo](#venerdì-24-marzo)
     - [Mercoledì 26 aprile](#mercoledì-26-aprile)
     - [Giovedì 27 aprile](#giovedì-27-aprile)
+    - [Martedì 02 maggio](#martedì-02-maggio)
+    - [Mercoledì 03 maggio](#mercoledì-03-maggio)
+    - [Giovedì 04 maggio](#giovedì-04-maggio)
   - [Come usare questa Repository](#come-usare-questa-repository)
     - [Disclaimer:](#disclaimer)
     - [Fork in github](#fork-in-github)
@@ -64,6 +67,16 @@ repository di prova per usare github e condividere appunti ed esercizi su python
 [app multiple regression](./streamlit/multiple_regression/app_multiple.py) esempio *(non ancora completo)* di app per fare regressione multipla con streamlit. **!!!Usa le classi!!!**
 
 [classification](./streamlit/classification/app_classification.py) Esercizio in aula, app di streamlit che, avendo già creato il modello ML per la classificazione degli iris, prende un file .csv (feature) elabora i dati e restituiisce i dati classificati con la possibilità di scaricarli in formato excel.
+
+### Martedì 02 maggio
+
+### Mercoledì 03 maggio 
+**Prova sommativa**
+
+### Giovedì 04 maggio
+
+[appunti API](./appunti_lezione/gio04mag.ipynb)
+[templateAPI openweather](https://github.com/pg-88/my_stupid_weather_app.git)
 
 ## Come usare questa Repository
 
